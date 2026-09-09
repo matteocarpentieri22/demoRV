@@ -1,7 +1,7 @@
 import { KpiGrid } from '../components/KpiCards';
 import {
   GettitoProvincia, TrendStoricoChart, ComplianceChart,
-  FasceRedditoChart, ClassiEmissiveChart,
+  FasceRedditoChart,
 } from '../components/Charts';
 import { GETTITO_PER_PROVINCIA, formatEuro } from '../data/mockData';
 import { useNavigate } from 'react-router-dom';

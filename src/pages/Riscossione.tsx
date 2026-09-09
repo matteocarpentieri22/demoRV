@@ -1,4 +1,4 @@
-import { RISCOSSIONE, KPI, formatEuro, formatNum } from '../data/mockData';
+import { KPI, formatEuro, formatNum } from '../data/mockData';
 import { RiscossioneChart } from '../components/Charts';
 import { Target, AlertCircle, XCircle, CheckCircle2 } from 'lucide-react';
 

@@ -4,8 +4,7 @@ import {
   Chart as ChartJS, CategoryScale, LinearScale, BarElement,
   Title, Tooltip, Legend,
 } from 'chart.js';
-import { FASCE_REDDITO, CLASSI_EMISSIVE, formatEuro, formatNum } from '../data/mockData';
-import { ArrowRight, Info } from 'lucide-react';
+import { formatEuro, formatNum } from '../data/mockData';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 

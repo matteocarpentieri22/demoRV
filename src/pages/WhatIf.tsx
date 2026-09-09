@@ -358,7 +358,6 @@ export default function WhatIf() {
                     { prov: 'Belluno',  coinvolti: 8_200,  delta: -310_000,   med: -38, max: -103 },
                     { prov: 'Rovigo',   coinvolti: 6_800,  delta: -280_000,   med: -41, max: -116 },
                   ].map(r => {
-                    const scaledDelta = Math.round(r.delta * (1 - (sconti.reduce((a, b) => a + b, 0) === 0 ? 0 : 0.5)));
                     const esposizione = Math.abs(r.coinvolti / 312_847 * 100);
                     return (
                       <tr key={r.prov}>

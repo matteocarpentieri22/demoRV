@@ -1,9 +1,9 @@
-import { Bar, Scatter } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS, CategoryScale, LinearScale, BarElement,
   PointElement, Title, Tooltip, Legend,
 } from 'chart.js';
-import { FASCE_REDDITO, CLUSTER, formatEuro, formatNum } from '../data/mockData';
+import { formatEuro, formatNum } from '../data/mockData';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, PointElement, Title, Tooltip, Legend);
 
